@@ -10,8 +10,7 @@
   },
   "parameters": {
     "storagePrefix": {
-      "type": "string",
-      "defaultValue": "[Prefix]"
+      "type": "string"
     },
     "location": {
       "type": "string",
