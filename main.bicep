@@ -1,4 +1,4 @@
-param storagePrefix = 'Prefix'
+param storagePrefix string = 'Prefix'
 param location string = resourceGroup().location
 
 var storageName = '${storagePrefix}${{uniqueString(resourceGroup().id)}'
