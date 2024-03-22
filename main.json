@@ -9,9 +9,9 @@
     }
   },
   "parameters": {
-    "storageName": {
+    "storagePrefix": {
       "type": "string",
-      "defaultValue": "[format('stg{0}', uniqueString(resourceGroup().id))]"
+      "defaultValue": "[Prefix]"
     },
     "location": {
       "type": "string",
